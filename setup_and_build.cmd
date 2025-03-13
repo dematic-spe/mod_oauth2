@@ -41,8 +41,8 @@ mkdir target\mod_oauth2\x64
 mkdir target\mod_oauth2\x64\Release
 copy x64\Release\mod_oauth2.dll target\mod_oauth2\x64\Release\mod_oauth2.dll
 
-del target\mod_oauth2-3.4.0-win64-VS16.zip
+del target\mod_oauth2-4.0.0-win64-VS16.zip
 
-powershell Compress-Archive -Path target\mod_oauth2\x64\Release\mod_oauth2.dll -DestinationPath target\mod_oauth2-3.4.0-win64-VS16.zip
+powershell Compress-Archive -Path target\mod_oauth2\x64\Release\mod_oauth2.dll -DestinationPath target\mod_oauth2-4.0.0-win64-VS16.zip
 
 %VCPKG_CMD% integrate remove 
